@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>regstraion</title>
+</head>
+<body>
+    
+    <header class="d-flex justify-content-center align-items-center bg-black vh-100 ">
+           <div class="card h-75 w-50  ">
+        <div class="card-body">
+          <form id="registerform" >
+
+            <legend class="text-center">Regstraion</legend>
+            <div class="mb-3">
+                <label for="registerName" class="form-label">Name</label>
+                <input type="Name" class="form-control" id="registerName">
+              </div>
+            <div class="mb-3">
+              <label for="registerEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="registerEmail" >
+            </div>
+            <div class="mb-3">
+              <label for="registerPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="registerPassword">
+            </div>
+           
+            <button type="submit" id="submitReg" class="btn btn-primary">Register</button>
+
+          </form>
+
+          <p>You have an account? <a href="index.html">Signin</a> </p>
+        </div>
+      </div>
+
+    </header>
+
+ 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+    src="https://kit.fontawesome.com/ae6984fa9e.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/register.js"></script>  
+</body>
+</html>
